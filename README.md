@@ -37,12 +37,39 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 /* write all the steps invloved */
 
 **PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+```
+/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:Hema dharshini N RegisterNumber:212223220034
 */
-
+module SRFLIPFLOPUSINGCASE(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
+  input s,r,clk, reset;
+  output reg q;
+  output q_bar;
+ 
+  always@(posedge clk) begin // for synchronous reset
+    if(!reset)
+		q <= 0;
+    else 
+  begin
+      case({s,r})       
+	     2'b00: q <= q;    // No change
+		  2'b01: q <= 1'b0; // Write logic for reset
+        2'b10: q <= 1'b1; // Write logic for set
+		  2'b11:	q <= 1'bx; // Write logic for Invalid state
+      endcase
+    end
+  end
+  assign q_bar = ~q;
+endmodule
+```
 **RTL LOGIC FOR FLIPFLOPS**
+
+![di 1](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/890e0f63-a7fb-497d-a79e-935953e80e10)
+
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![di 2](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/4b04b5b0-f549-4bd3-acc3-efee5f24eff4)
+
 **RESULTS**
+Therefore the code has been successfully executed.
