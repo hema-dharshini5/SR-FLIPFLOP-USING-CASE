@@ -72,13 +72,13 @@ endmodule
 ```
 **RTL LOGIC FOR FLIPFLOPS**
 
-![di 1](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/890e0f63-a7fb-497d-a79e-935953e80e10)
+![digi ep 6 1](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/d07b816b-35fe-485b-9968-d79a5a8eb9de)
 
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![di 2](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/4b04b5b0-f549-4bd3-acc3-efee5f24eff4)
+![digi ep 6 2](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/d0d40a4b-5ab5-4d65-8549-be60300baebd)
 
 **RESULTS**
 Therefore the code has been successfully executed.
