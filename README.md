@@ -48,7 +48,6 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 ```
 /*
 Developed by:Hema dharshini N RegisterNumber:212223220034
-*/
 module SRFLIPFLOPUSINGCASE(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
   input s,r,clk, reset;
   output reg q;
@@ -72,13 +71,13 @@ endmodule
 ```
 **RTL LOGIC FOR FLIPFLOPS**
 
-![digi ep 6 1](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/d07b816b-35fe-485b-9968-d79a5a8eb9de)
+![d1](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/56813b1c-4de2-422d-bb60-a4bb77f6ffb9)
 
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![d2](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/2bf827aa-edc3-41fc-9813-afe5e34afdc4)
 
-![digi ep 6 2](https://github.com/hema-dharshini5/SR-FLIPFLOP-USING-CASE/assets/147117728/d0d40a4b-5ab5-4d65-8549-be60300baebd)
 
 **RESULTS**
 Therefore the code has been successfully executed.
